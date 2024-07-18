@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(216 217 221);
+    overflow-x: hidden;
+}
+#home{
+    background-color: rgb(190 187 186);
+}
+.img-fluid{
+    width:100%;
+    height: 80%;
+    border-radius: 36%;
+     min-width: 110%;
+}
+
+.home_desc span{
+    color: rgb(59 51 53) ;
+}
+/* -----------------------------------------------------------------Expearience sec------------------------------------------------------------- */
+#service{
+background-color:rgb(59 51 53) ;
+}
+#service i{
+    color:rgb(190 187 186);
+   
+}
+.card{
+    cursor: pointer;
+    transition: transform 0.5s;
+    height: 100% !important;
+}
+.card:hover{
+background:rgb(247, 242, 242) ;
+transform: scale(1.05);
+
+}
+
+/* ---------------------------------------------------------------footersec------------------------------------------------------------------------------------- */
+.footersec{
+    background-color: rgb(190 187 186); 
+}
+footer .btn{
+    background-color: rgb(190 187 186);
+    border: none;
+}
+.social_icons a {
+display: flex;
+text-decoration: none;
+font-size: 30px;
+margin-right: 20px;
+color: #fff;
+width: 50px;
+height: 50px;
+align-items: center;
+justify-content: center;
+/* text-align: center; */
+background-color: #000000;
+border-radius: 100%;
+
+}
+
+
+
+
+@media (max-width: 650px) {
+    .home_desc {
+        margin-top: 10px;
+        font-size: 150%; 
+        justify-content: center;
+        text-align: center;
+        line-height: 140%;
+    }
+    .profile_img{
+        justify-content: center;                      
+        width: 100%;
+    }
+    .font-italic{
+        font-size: 70%;  
+    }
+    #home{
+        padding: 15px 0px !important;
+    }
+    .img-fluid{
+        max-width: 150%;
+        padding: 0;
+         
+    }
+}
